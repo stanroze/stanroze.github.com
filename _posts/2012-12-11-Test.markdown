@@ -1,2 +1,7 @@
+---
+layout: post
+title: The one where I test
+---
+
 > `Hello`
 > *Hello*
