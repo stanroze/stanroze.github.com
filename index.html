@@ -5,7 +5,7 @@ title: lilbitofcode
 
 <section>
   {% for post in site.posts %}
-      {{ post.date | date: "%b %Y" }}
+      {{ post.date | date_to_long_string }}
       <a  href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
       {{  post.content | prettyprint | truncate: 200 }}<a  href="{{ post.url }}">[more]</a>
       <hr>
