@@ -12,8 +12,9 @@ $ git fetch origin
 $ git checkout gh-pages
 </pre>
 
-{% highlight ruby %}
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+{% highlight C# %}
+public class Test
+{
+public string Item { get; set;}
+}
 {% endhighlight %}
