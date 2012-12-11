@@ -11,3 +11,9 @@ $ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
 </pre>
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
