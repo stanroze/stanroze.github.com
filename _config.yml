@@ -1,2 +1,4 @@
 source:      .
 destination: ./_site
+markdown:    maruku
+permalink:   pretty
