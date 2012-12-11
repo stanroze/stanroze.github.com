@@ -2,14 +2,8 @@
 layout: default
 blog: true
 ---
-
-  
-  
-  
-
   <section>
-    <h3>{{ page.title }}</h3>
-    <p>
+
       {{ page.date | date: "%b %Y" }}
       {% if page.updated_at %}
           revised {{ page.updated_at }}
