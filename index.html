@@ -5,10 +5,10 @@ title: lilbitofcode
 
 <section>
   {% for post in site.posts %}
-      <a  href="{{ post.url }}"> <h1>{{ post.title }}</h1></a>
+      <a  href="{{ post.url }}"> <h3>{{ post.title }}</h3></a>
       {{ post.date | date: "%b %Y" }}
       <p>
-      {{  post.content | prettyprint | truncate: 200 }}<a  href="{{ post.url }}">[-->]</a>
+      {{  post.content | prettyprint | truncate: 200 }}<a  href="{{ post.url }}">[more]</a>
       <hr>
   {% endfor %}
 </section>
