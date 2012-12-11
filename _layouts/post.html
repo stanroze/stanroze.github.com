@@ -5,6 +5,7 @@ blog: true
   <section>
 
       {{ page.date | date_to_long_string }}
+      ###{{ title }}
       {% if page.updated_at %}
           revised {{ page.updated_at }}
     {% endif %}
