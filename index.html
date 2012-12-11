@@ -1,0 +1,13 @@
+---
+layout: default
+title: lilbitofcode
+---
+
+<ul id="posts">
+  {% for post in site.posts %}
+    <li>
+      <a  href="stanroze/{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%b %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
