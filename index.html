@@ -6,8 +6,7 @@ title: lilbitofcode
 <section>
   {% for post in site.posts %}
       <a  href="{{ post.url }}"><h3>{{ post.title }} </h3> - <h1>{{ post.date | date: "%b %Y" }}</h1></a>
-      <section>
+      <p>
       {{  post.content | prettyprint | truncate: 20 }}
-      </section>
   {% endfor %}
 </section>
